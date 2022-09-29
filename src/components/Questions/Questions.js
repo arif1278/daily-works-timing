@@ -25,6 +25,22 @@ const Questions = () => {
                     </div>
                 </div>
             </div>
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="headingThree">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                        what are the usecases of useEffect except loading data from api ?
+                    </button>
+                </h2>
+                <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                        1. Running on state change: validating input field <br />
+                        2. Running on state change: live filtering <br />
+                        3. Running on state change: trigger animation on new array value <br />
+                        4. Running on props change: update paragraph list on fetched API data update <br />
+                        5. Running on props change: updating fetched API data to get BTC updated price
+                    </div>
+                </div>
+            </div>
         </div>
     );
 };
