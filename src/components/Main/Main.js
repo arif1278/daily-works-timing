@@ -11,7 +11,7 @@ const Main = ({ addToList }) => {
                 <div className="logo mt-5">
                     <a href="/"><img src={logo} alt="" /></a>
                 </div>
-                <h2 className='h4 my-4'>Select Today's Excercise</h2>
+                <h2 className='h4 my-4'>Select Today's Works</h2>
                 <Activities addToList={addToList}></Activities>
 
                 <h1 className='h4 my-5'>Questions and Answers</h1>

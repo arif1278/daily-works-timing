@@ -2,7 +2,7 @@ import React from 'react';
 import Break from '../Break/Break';
 
 const AddBreaks = ({ breakTime, setBreakTime }) => {
-    const times = [10, 20, 30, 40, 50];
+    const times = [100, 200, 300, 400, 500];
     return (
         <div>
             <h3 className='h4 my-4'>Add a Break</h3>
