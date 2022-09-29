@@ -32,7 +32,7 @@ const Questions = () => {
                     </button>
                 </h2>
                 <div id="collapseThree" class="accordion-collapse collapse show" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
-                    <div class="accordion-body">
+                    <div className="accordion-body">
                         1. Running on state change: validating input field <br />
                         2. Running on state change: live filtering <br />
                         3. Running on state change: trigger animation on new array value <br />

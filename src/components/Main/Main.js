@@ -8,7 +8,7 @@ const Main = ({ addToList }) => {
     return (
         <main className="col-sm-12 col-md-6 col-lg-9 bg-light">
             <div className="container w-80">
-                <div className="logo mt-5 w-50">
+                <div className="logo mt-5">
                     <a href="/"><img src={logo} alt="" /></a>
                 </div>
                 <h2 className='h4 my-4'>Select Today's Excercise</h2>

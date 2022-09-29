@@ -9,7 +9,7 @@ const ActivityDetails = ({ list, breakTime }) => {
         <>
             <h3 className='h4 my-4'>Activity Details</h3>
             <div className="bg-light p-3 rounded d-flex justify-content-between align-items-center my-3">
-                <h5>Excercise Time:</h5>
+                <h5>works Time:</h5>
                 <h5>{totalTime} seconds</h5>
             </div>
             <div className="bg-light p-3 rounded d-flex justify-content-between align-items-center my-3">

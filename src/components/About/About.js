@@ -36,7 +36,7 @@ const About = () => {
             </div>
 
             <div className="bg-light p-3 rounded">
-                <p>My Name is Arif, I am trying hard to become a full stack web developer. I live in old Dhaka. but my home town is in Netrokuna</p>
+                <p>My Name is Arif, I am trying hard to become a full stack web developer. I live in Dhaka. My home town is in Netrokuna</p>
             </div>
         </>
     );
